@@ -1,0 +1,22 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.container{
+    text-align: justify;
+}
+
+.content{
+    
+    width: 700px;
+    margin: 0rem auto;
+    height: 300px;
+    border: 1px solid red;
+    overflow-x: auto;
+}
